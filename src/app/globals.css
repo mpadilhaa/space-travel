@@ -1,21 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Bellefair&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Barlow:wght@400;700&family=Bellefair&display=swap");
-
 body {
   font-family: "Barlow", sans-serif;
   color: #d0d6f9;
+  font-size: 15px;
 }
 
 h3,
 h4,
 h5,
-span {
+span,
+li,
+ul {
   font-family: "Barlow Condensed", sans-serif;
   color: #fff;
   letter-spacing: 2.7px;
+  font-size: 16px;
 }
 
 h1,

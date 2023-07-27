@@ -13,6 +13,9 @@ module.exports = {
         "home-bg-desktop": "url('/home/background-home-desktop.jpg')",
       },
     },
+    colors: {
+      "rgba-menu": "rgba(255, 255, 255, 0.04)",
+    },
   },
   plugins: [],
 };
