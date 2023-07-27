@@ -5,7 +5,7 @@ export default function Home() {
     <div
       className="bg-black 
     bg-home-bg-mobile md:bg-home-bg-tablet 
-     lg:bg-home-bg-desktop bg-no-repeat bg-cover h-screen"
+     lg:bg-home-bg-desktop bg-no-repeat bg-cover min-h-screen"
     >
       <HomeContent />
     </div>
