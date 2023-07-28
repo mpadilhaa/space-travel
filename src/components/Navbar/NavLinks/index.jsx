@@ -1,4 +1,4 @@
-import { data } from "./dataNavlinks";
+import { data } from "../../../utils/dataNavlinks";
 
 import Link from "next/link";
 
