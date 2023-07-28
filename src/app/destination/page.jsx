@@ -2,15 +2,20 @@
 import React from "react";
 import { useCarousel } from "@/hooks/useCarousel";
 
-const DestinationPage = () => {
+export default function Crew() {
   const [
     carouselItem,
     handleBeforeSlide,
     handleNextSlide,
     handlePlanetDetails,
   ] = useCarousel();
-
-  return <h1 className="bg-red-500">ola</h1>;
-};
-
-export default DestinationPage;
+  return (
+    <div
+      className="bg-black 
+    bg-destination-bg-mobile md:bg-destination-bg-tablet 
+     lg:bg-destination-bg-desktop bg-no-repeat bg-cover min-h-screen"
+    >
+      ola
+    </div>
+  );
+}

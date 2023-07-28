@@ -21,7 +21,7 @@ const Navbar = () => {
         height={40}
         alt="logo space-travel"
       />
-      <div className="absolute right-8  z-10 md:hidden" onClick={toogleMenu}>
+      <div className="absolute right-8  z-20 md:hidden" onClick={toogleMenu}>
         {toogle ? (
           <IoCloseOutline size={25} fill="#FFF" />
         ) : (
@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav
         className={
           toogle
-            ? "h-screen w-2/3 absolute top-[-10px] right-0  bg-rgba-menu backdrop-blur-[40.774227142333984px] md:block xl:w-[840px] md:h-[88px] xl:h-[88px]"
+            ? "h-screen w-2/3 absolute top-[-10px] right-0 z-10 bg-rgba-menu backdrop-blur-[40.774227142333984px] md:block xl:w-[840px] md:h-[88px] xl:h-[88px]"
             : "hidden  bg-rgba-menu backdrop-blur-[40.774227142333984px] md:block xl:w-[840px]  "
         }
       >

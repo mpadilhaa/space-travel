@@ -1,7 +1,12 @@
-import React from "react";
+import PlanetData from "@/components/PlanetData";
 
-const TechnologyPage = () => {
-  return <div>TechnologyPage</div>;
-};
-
-export default TechnologyPage;
+export default function Technology() {
+  return (
+    <div
+      className="
+      bg-technology-bg-mobile md:bg-technology-bg-tablet 
+       lg:bg-technology-bg-desktop bg-no-repeat bg-cover min-h-screen
+       p-[300px]"
+    ></div>
+  );
+}
