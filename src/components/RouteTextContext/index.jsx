@@ -18,7 +18,6 @@ const RouteTextContext = ({
         </h3>
       )}
 
-      <h2>{title}</h2>
       {crewPage || technologyPage ? (
         <h2 className="text-[24px] md:text-[40px] xl:text-[56px]">{title}</h2>
       ) : (

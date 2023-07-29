@@ -5,10 +5,6 @@ import React, { useState } from "react";
 export const useCarousel = () => {
   const [carouselItem, setCarouselItem] = useState(0);
 
-  const handlePlanetDetails = (id) => {
-    setCarouselItem(id);
-  };
-
   const handleBeforeSlide = () => {
     if (carouselItem === 0) {
       return;
@@ -23,10 +19,5 @@ export const useCarousel = () => {
     setCarouselItem((prev) => prev + 1);
   };
 
-  return [
-    carouselItem,
-    handleBeforeSlide,
-    handleNextSlide,
-    handlePlanetDetails,
-  ];
+  return { carouselItem, handleBeforeSlide, handleNextSlide, setCarouselItem };
 };

@@ -1,6 +1,6 @@
 export const data = [
-  { number: "00", name: "home" },
-  { number: "01", name: "destination" },
-  { number: "02", name: "crew" },
-  { number: "03", name: "technology" },
+  { route: "/", number: "00", name: "home" },
+  { route: "/destination", number: "01", name: "destination" },
+  { route: "/crew", number: "02", name: "crew" },
+  { route: "/technology", number: "03", name: "technology" },
 ];
