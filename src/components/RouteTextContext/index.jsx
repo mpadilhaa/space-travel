@@ -23,7 +23,7 @@ const RouteTextContext = ({
       ) : (
         <h2 className="text-[56px] md:text-[80px] xl:text-[100px]">{title}</h2>
       )}
-      <p>{children}</p>
+      <p className="text-[18px]">{children}</p>
     </div>
   );
 };
