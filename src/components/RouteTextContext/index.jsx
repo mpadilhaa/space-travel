@@ -15,7 +15,7 @@ const RouteTextContext = ({
         </h3>
       )}
       {crewPage && (
-        <h2 className=" pt-4 text-[16px] md:text-[24px] xl:text-[32px] opacity-50">
+        <h2 className=" pt-4 text-[16px] md:text-[24px] xl:text-[32px] opacity-50 ">
           {description}
         </h2>
       )}
@@ -27,7 +27,9 @@ const RouteTextContext = ({
       ) : (
         <h2 className="text-[56px] md:text-[80px] xl:text-[100px]">{title}</h2>
       )}
-      <p className=" text-[15px] md:text-[16px] xl:text-[18px]">{children}</p>
+      <p className=" text-[15px] md:text-[16px] xl:text-[18px] xl:w-[444px] ">
+        {children}
+      </p>
     </div>
   );
 };

@@ -29,9 +29,6 @@
   background-color: #ffffff;
   opacity: 1;
 }
-.swiper-wrapper {
-  position: relative;
-}
 
 @media (min-width: 767px) {
   .mySwiper .swiper-pagination {
@@ -42,5 +39,20 @@
   .swiper-slide {
     padding-top: 50px;
     padding-bottom: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .mySwiper .swiper-pagination {
+    width: 150px;
+
+    bottom: 100px;
+    left: 100px;
+    top: auto;
+  }
+
+  span {
+    width: 14px !important;
+    height: 14px !important;
   }
 }
